@@ -1,0 +1,34 @@
+.total {
+  padding: 100px 0;
+  &__content {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    row-gap: 50px;
+    background: white;
+  }
+  &__menu {
+    display: flex;
+    flex-direction: column;
+    row-gap: 20px;
+    &-item {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      column-gap: 50px;
+      span {
+        color: #1abc9c;
+        font-weight: 700;
+      }
+    }
+  }
+  &__all {
+    display: flex;
+    justify-content: center;
+    column-gap: 100px;
+    span {
+      color: #1abc9c;
+      font-weight: 700;
+    }
+  }
+}

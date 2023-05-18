@@ -1,0 +1,10 @@
+.money {
+  margin-bottom: 10px;
+  &__count {
+    padding: 20px 50px;
+    background: linear-gradient(180deg,#2ecc71,#1abc9c);
+    text-align: center;
+    color: #fff;
+    font-size: 40px;
+  }
+}

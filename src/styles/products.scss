@@ -1,0 +1,41 @@
+.products {
+  &__row {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+  }
+  &__card {
+    padding: 40px 20px;
+    width: calc(33.33333% - 13.33333px);
+    background: #fff;
+    text-align: center;
+    img {
+      width: 100%;
+    }
+    &-bottom {
+      margin-top: 15px;
+      display: flex;
+      justify-content: space-between;
+    }
+    &-sale {
+      background: #f1f2f6;
+    }
+    &-buy {
+      background: linear-gradient(180deg,#2ecc71,#1abc9c);
+      color: #fff;
+    }
+    &-input {
+      width: 20%;
+      text-align: center;
+      height: 35px;
+    }
+
+  }
+}
+
+.btn {
+  padding: 8px 15px;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+}

@@ -1,0 +1,18 @@
+.hero {
+  margin: 10px 0;
+  &__content {
+    background: #fff;
+    padding: 40px 50px;
+    text-align: center;
+  }
+  &__avatar {
+    width: 125px;
+    height: 125px;
+    border-radius: 50%;
+    margin: 0 auto 30px;
+    img {
+      width: 100%;
+      border-radius: 50%;
+    }
+  }
+}
